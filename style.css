@@ -4,12 +4,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: aliceblue;
+  text-decoration: none;
+  list-style: none;
 }
 body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #111;
   display: flex;
 }
 
@@ -23,25 +24,24 @@ nav {
   height: 100vh;
   position: absolute;
   z-index: 10;
-  background-color: aliceblue;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .menu-button {
-  color: black;
+  margin-top: 80vh;
+  cursor: pointer;
 }
-
 .nav-links {
   width: 30vw;
-  background-color: rebeccapurple;
+  background: #000;
   height: 100vh;
   position: absolute;
   transform: translateX(-30vw);
   transition: transform 200ms ease-in-out;
   z-index: 9;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,6 +55,13 @@ nav {
 .content {
   width: 95vw;
   height: 100vh;
+  background: url("./bg.jpg");
+  background-size: cover;
+  transition: 200ms ease-in-out;
+}
+
+.content-blur {
+  filter: brightness(10%);
 }
 
 .name {
@@ -62,4 +69,25 @@ nav {
   font-weight: bolder;
   font-family: "Josefin Sans", sans-serif;
   margin: 50px 10px;
+}
+
+.burger > * {
+  width: 20px;
+  height: 3px;
+  background-color: aliceblue;
+  border-radius: 2px;
+  margin: 3px;
+  transition: 200ms ease-in-out;
+}
+
+.b-anim .line2 {
+  opacity: 0;
+}
+
+.b-anim .line1 {
+  transform: rotate(45deg) translate(5px, 4px);
+}
+
+.b-anim .line3 {
+  transform: rotate(-45deg) translate(5px, -4px);
 }

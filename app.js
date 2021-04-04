@@ -1,6 +1,9 @@
 navAnimate = () => {
   const navLinks = document.getElementById("nav-links");
-  const menuButton = document.getElementById("menu-button");
+  const content = document.getElementById("content");
+  const burger = document.getElementById("burger");
 
   navLinks.classList.toggle("nav-move");
+  content.classList.toggle("content-blur");
+  burger.classList.toggle("b-anim");
 };
