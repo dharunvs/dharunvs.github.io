@@ -36,7 +36,12 @@ nav {
 }
 .nav-links {
   width: 30vw;
-  background: #000;
+  background: linear-gradient(
+    90deg,
+    #000,
+    rgba(0, 0, 0, 0.76),
+    rgba(0, 0, 0, 0)
+  );
   height: 100vh;
   position: absolute;
   transform: translateX(-30vw);
@@ -60,8 +65,8 @@ nav {
   transition: 200ms ease-in-out;
 }
 
-.content-blur {
-  filter: brightness(10%);
+.content-filter {
+  filter: brightness(15%);
 }
 
 .name {
