@@ -1,3 +1,3 @@
 # dharunvs.github.io
 Portfolio  
-[Website](dharunvs.github.io)
+Click [here](https://dharunvs.github.io/)
