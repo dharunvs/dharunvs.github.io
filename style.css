@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #111;
+  display: flex;
+}
+
+nav {
+  width: 5vw;
+  height: 100vh;
+  background-color: rgba(240, 248, 255, 0.356);
+}
+
+.nav-links {
+  width: 40vw;
+  background-color: rebeccapurple;
+  height: 100vh;
+  position: absolute;
+  transform: translateX(-40vw);
+  transition: transform 200ms ease-in-out;
+}
+
+.nav-move {
+  transform: translateX(0);
+}
+
+.content {
+  width: 95vw;
+  height: 100vh;
+}
+
+.name {
+  font-size: 5rem;
+  font-weight: bolder;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 50px 10px;
+}
