@@ -69,3 +69,47 @@
 .items-container .item:hover .card-anim {
   transform: translateY(0);
 }
+
+.banner {
+  transform: rotate(40deg);
+  width: 100px;
+  height: 20px;
+  background-color: rgb(0, 255, 0);
+}
+
+/* .items-wrapper {
+  width: 50vw;
+  height: 80vh;
+  position: absolute;
+  left: 40vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  width: 200px;
+}
+
+.item-container {
+  width: 300px;
+  height: 250px;
+  position: relative;
+}
+
+.item-container .item-banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(-45deg) translate(2vw, -10vh);
+  width: 20px;
+  height: 150px;
+  background-color: rgb(0, 255, 21);
+  z-index: 5;
+}
+.item-container .item {
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: gold;
+} */
