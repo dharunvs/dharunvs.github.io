@@ -1,13 +1,23 @@
 .items-container {
-  width: 300px;
-  height: 250px;
-  border-radius: 20px;
-  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .items-container .item {
-  height: inherit;
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  margin: 20px;
   overflow: hidden;
+  box-shadow: 0 0 5px 5px rgb(15, 15, 15);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +66,6 @@
   background-color: rgba(255, 255, 255, 0.685);
 }
 
-.items-container:hover .item .card-anim {
+.items-container .item:hover .card-anim {
   transform: translateY(0);
 }
