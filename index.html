@@ -26,18 +26,29 @@
       <div id="nav-links" class="nav-links">
         <span></span>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Home</a></li>
+          <li><a onclick="pageAnimate('home')">Home</a></li>
+          <li><a onclick="pageAnimate('work')">Work</a></li>
+          <li><a onclick="pageAnimate('about')">About</a></li>
         </ul>
       </div>
     </nav>
     <div id="content" class="content">
-      <div class="name">
-        Dharun <br />
-        Sivakumar
-      </div>
+      <div id="pages" class="pages">
+        <div class="home page">
+          <div class="name page-title">
+            Dharun <br />
+            Sivakumar
+          </div>
+        </div>
+        
+        <div class="work page">
+          <h1 class="name page-title">Work</h1>
+        </div>
+        <div class="about page">
+          <h1 class="name page-title">About</h1>
+        </div>
+      </div>  
+      
     </div>
 
     <script src="./app.js"></script>

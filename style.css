@@ -65,6 +65,7 @@ nav {
 .nav-links ul li a {
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .nav-move {
@@ -73,22 +74,33 @@ nav {
 
 .content {
   width: 95vw;
-  height: 100vh;
   background: url("./bg.jpg");
   background-size: cover;
   transition: 200ms ease-in-out;
+}
+
+.content .pages {
+  transition: transform 500ms ease-in-out;
+  transition-delay: 200ms;
+}
+.content .pages .page {
+  height: 100vh;
+  position: relative;
 }
 
 .content-filter {
   filter: brightness(15%);
 }
 
-.name {
-  font-size: 5rem;
+.page-title {
+  font-size: 6rem;
   font-weight: bolder;
-  /* font-family: "Josefin Sans", sans-serif; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 2px;
-  margin: 50px 10px;
+  margin: 50px;
 }
 
 .burger > * {
