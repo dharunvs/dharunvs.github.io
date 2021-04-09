@@ -171,14 +171,42 @@
 
         <div class="contact page">
           <h1 class="name page-title">Contact</h1>
-          <form id="form" action="#">
-            <input type="text" onchange="inputChange()" placeholder="Name" />
-            <input type="text" onchange="inputChange()" placeholder="Email" />
-            <textarea
-              type="text"
-              onchange="inputChange()"
-              placeholder="Message"
-            ></textarea>
+          <form id="form">
+            <div class="form-input-container">
+              <input
+                type="text"
+                id="name"
+                onclick="inputChangeName()"
+                onchange="inputChangeName()"
+                placeholder="Name"
+              />
+              <div id="name-error" class="error"></div>
+            </div>
+
+            <div class="form-input-container">
+              <input
+                type="email"
+                id="email"
+                onclick="inputChangeEmail()"
+                onchange="inputChangeEmail()"
+                placeholder="Email"
+              />
+              <div id="email-error" class="error"></div>
+            </div>
+
+            <div class="form-input-container">
+              <textarea
+                type="text"
+                id="message"
+                onclick="inputChangeMessage()"
+                onchange="inputChangeMessage()"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+              <div id="message-error" class="error"></div>
+            </div>
+
+            <button class="contact-button" type="submit">Submit</button>
           </form>
         </div>
       </div>
