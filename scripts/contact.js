@@ -60,3 +60,8 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   submit();
 });
+
+if (state == false) {
+  const button = document.getElementById("contact-button");
+  button.style.state = "disabled";
+}
