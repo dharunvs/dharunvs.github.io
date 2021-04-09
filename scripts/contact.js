@@ -51,7 +51,7 @@ function inputChangeMessage() {
 }
 
 function submit() {
-  console.log("Submitting...");
+  console.log("Submitting....");
 }
 
 const form = document.getElementById("form");
