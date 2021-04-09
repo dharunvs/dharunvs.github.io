@@ -74,7 +74,7 @@ nav {
 
 .content {
   width: 95vw;
-  background: url("../src/bg.jpg");
+  background: url("../src/bg1.jpg");
   background-size: cover;
   transition: 200ms ease-in-out;
 }
