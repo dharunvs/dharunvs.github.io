@@ -36,6 +36,11 @@
   font-size: 1.2rem;
 }
 
+.home .page-title-home ul p {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
 .fa-python {
   color: yellow;
 }
@@ -69,5 +74,5 @@
 }
 
 .github:hover i {
-  color: rgb(106, 0, 245);
+  color: rgb(147, 0, 245);
 }
