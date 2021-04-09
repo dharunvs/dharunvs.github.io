@@ -1,10 +1,6 @@
 .items-container {
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
   width: 60vw;
-  height: 80vh;
+  margin-left: 10vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -15,6 +11,7 @@
   display: flex;
   width: 250px;
   justify-content: space-around;
+  margin-bottom: 5vh;
 }
 
 .wrapper .card {
