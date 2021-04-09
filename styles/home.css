@@ -37,11 +37,13 @@
   grid-template-columns: 1fr 3fr;
   align-items: center;
   font-size: 1.2rem;
+  transform: translateX(10px);
 }
 
 .page-title-home ul .ul-head {
   font-size: 1.4rem;
   padding-bottom: 5px;
+  transform: translateX(-20px);
 }
 
 .social-links {

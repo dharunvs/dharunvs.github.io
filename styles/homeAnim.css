@@ -6,6 +6,10 @@
   position: relative;
 }
 
+.page-title-home h1::before {
+  -webkit-text-stroke: 1px white;
+}
+
 @keyframes glowLight {
   0%,
   18%,
@@ -37,19 +41,35 @@
 
 .page-title-home p,
 .page-title-home ul,
+.page-title-home .hr1,
+.page-title-home .hr2,
 .page-title-home .social-links {
   opacity: 0;
-  animation: textAnim 1200ms linear forwards;
+  animation: textAnim 2.6s linear forwards;
+}
+
+.page-title-home hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4vh;
+  border: 0.1px solid rgba(245, 245, 245, 0.4);
+}
+
+.page-title-home .hr1 {
+  animation-delay: 0.5s;
 }
 
 .page-title-home p {
   animation-delay: 1s;
 }
 .page-title-home ul {
+  animation-delay: 1.5s;
+}
+.page-title-home .hr2 {
   animation-delay: 2s;
 }
 .page-title-home .social-links {
-  animation-delay: 3s;
+  animation-delay: 2.5s;
 }
 
 @keyframes textAnim {
