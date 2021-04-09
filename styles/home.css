@@ -57,6 +57,17 @@
   font-size: 4rem;
 }
 
-.social-links:nth-child(1):hover i {
-  color: pink;
+.social-links .social-link i {
+  transition: color 200ms ease-in-out;
+}
+.instagram:hover i {
+  color: rgb(255, 0, 179);
+}
+
+.twitter:hover i {
+  color: rgb(0, 195, 255);
+}
+
+.github:hover i {
+  color: rgb(106, 0, 245);
 }
