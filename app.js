@@ -3,7 +3,7 @@ const content = document.getElementById("content");
 const burger = document.getElementById("burger");
 const pages = document.getElementById("pages");
 
-// pages.style.transform = "translateY(-100vh)";
+pages.style.transform = "translateY(-200vh)";
 
 function navAnimate() {
   navLinks.classList.toggle("nav-move");
