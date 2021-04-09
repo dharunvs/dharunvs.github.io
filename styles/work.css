@@ -153,6 +153,14 @@
   );
 }
 
+.wrapper .card-soon::before {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.233),
+    rgba(0, 0, 0, 0.555)
+  );
+}
+
 .wrapper .card:hover::before {
   opacity: 1;
 }
