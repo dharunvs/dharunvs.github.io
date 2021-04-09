@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/work.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <title>Dharun</title>
   </head>
   <body>
@@ -170,10 +171,20 @@
 
         <div class="contact page">
           <h1 class="name page-title">Contact</h1>
+          <form id="form" action="#">
+            <input type="text" onchange="inputChange()" placeholder="Name" />
+            <input type="text" onchange="inputChange()" placeholder="Email" />
+            <textarea
+              type="text"
+              onchange="inputChange()"
+              placeholder="Message"
+            ></textarea>
+          </form>
         </div>
       </div>
     </div>
 
-    <script src="./app.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/contact.js"></script>
   </body>
 </html>
