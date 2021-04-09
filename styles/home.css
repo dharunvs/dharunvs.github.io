@@ -42,3 +42,21 @@
 .fa-react {
   color: rgb(0, 153, 255);
 }
+
+.social-links {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10vh;
+}
+
+.social-links .social-link {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+.social-links:nth-child(1):hover i {
+  color: pink;
+}
