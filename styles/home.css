@@ -21,6 +21,11 @@
   line-height: 100%;
 }
 
+.page-title-home h1::before {
+  content: attr(data-text);
+  position: absolute;
+}
+
 .page-title-home p {
   font-size: 1.6rem;
   font-weight: 100;
