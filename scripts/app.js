@@ -14,11 +14,14 @@ function navAnimate() {
 function pageAnimate(page) {
   if (page == "home") {
     pages.style.transform = "translateY(0)";
+    cardRemove();
   } else if (page == "work") {
     pages.style.transform = "translateY(-100vh)";
+    cardRemove();
     cardAnimate();
   } else if (page == "contact") {
     pages.style.transform = "translateY(-200vh)";
+    cardRemove();
   }
 
   navLinks.classList.toggle("nav-move");
