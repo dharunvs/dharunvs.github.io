@@ -3,9 +3,13 @@ let cards = document.querySelectorAll(".card");
 function cardAnimate() {
   for (j in cards) {
     cards[j].classList.add("card-anim");
-    const timeString = (j + 1) * 40;
-    cards[j].style.animationDelay = timeString + "ms";
-    // console.log(timeString);
+    const time = 500;
+    const timeString = j * time + time;
+    if (j == 0) {
+      cards[j].style.animationDelay = time + "ms";
+    } else {
+      cards[j].style.animationDelay = timeString + "ms";
+    }
     console.log(j, timeString);
     if (j == 5) {
       break;
