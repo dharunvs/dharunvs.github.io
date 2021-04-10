@@ -1,5 +1,6 @@
 .card {
   opacity: 0;
+  transition: 200ms ease-in-out;
 }
 .card-anim {
   animation: cardAnim 1200ms forwards;

@@ -3,10 +3,10 @@ let cards = document.querySelectorAll(".card");
 function cardAnimate() {
   for (j in cards) {
     cards[j].classList.add("card-anim");
-    const time = 500;
+    const time = 400;
     const timeString = j * time + time;
     if (j == 0) {
-      cards[j].style.animationDelay = time + "ms";
+      cards[j].style.animationDelay = 600 + "ms";
     } else {
       cards[j].style.animationDelay = timeString + "ms";
     }
