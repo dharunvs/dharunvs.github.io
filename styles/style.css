@@ -74,9 +74,7 @@ nav {
 
 .content {
   width: 95vw;
-  /* background: url("../src/background.jpg"); */
   background: radial-gradient(circle at center, rgb(39, 39, 39), black);
-
   background-size: cover;
   transition: 200ms ease-in-out;
 }
@@ -133,4 +131,48 @@ nav {
 
 .b-anim .line3 {
   transform: rotate(-45deg) translate(5px, -4px);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  nav {
+    width: 100vw;
+    height: 10vh;
+  }
+  .nav-bar {
+    width: 100vw;
+    height: 10vh;
+    display: contents;
+  }
+
+  .content {
+    width: 100vw;
+  }
+  .nav-links {
+    width: 100vw;
+    height: 30vh;
+    transform: translateY(-50vh);
+  }
+
+  .nav-move {
+    transform: translateY(10vh);
+  }
+  .nav-links ul {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+  .menu-button {
+    margin-top: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    z-index: 50;
+  }
 }
