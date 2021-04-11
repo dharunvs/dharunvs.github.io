@@ -157,7 +157,7 @@ nav {
   }
 
   .nav-move {
-    transform: translateY(10vh);
+    transform: translateY(5vh);
   }
   .nav-links ul {
     height: 50vh;
