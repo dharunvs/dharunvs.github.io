@@ -153,14 +153,20 @@ nav {
   .nav-links {
     width: 100vw;
     height: 30vh;
-    transform: translateY(-50vh);
+    transform: translateY(-60vh);
+    background: linear-gradient(
+      180deg,
+      #000,
+      rgba(0, 0, 0, 0.76),
+      rgba(0, 0, 0, 0)
+    );
   }
 
   .nav-move {
     transform: translateY(10vh);
   }
   .nav-links ul {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
