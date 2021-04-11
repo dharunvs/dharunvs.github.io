@@ -148,8 +148,8 @@
 
 @media screen and (max-width: 600px) {
   .items-container {
-    width: 100vw;
-    margin: 20px 0;
+    width: 90vw;
+    margin: 5vh auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -165,11 +165,29 @@
   .wrapper .card {
     width: 150px;
     height: 175px;
-    padding: 2rem 1rem;
+    padding: 8px 5px;
     position: relative;
     display: flex;
     align-items: flex-end;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
     transition: 500ms ease-in-out;
+  }
+  .wrapper .card .info p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .wrapper .card .info h3 {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .wrapper .card .info {
+    transform: translateY(5px);
+  }
+  .wrapper .card .info .item-links .btn {
+    padding: 4px 6px;
+    font-size: 0.8rem;
+  }
+  .wrapper .card .info .item-links {
+    width: 90%;
   }
 }
