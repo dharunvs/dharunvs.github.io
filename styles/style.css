@@ -188,3 +188,9 @@ nav {
     font-size: 3rem;
   }
 }
+
+@media screen and (max-width: 1030px) {
+  .page-title {
+    margin-bottom: 5vh;
+  }
+}

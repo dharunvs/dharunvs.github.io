@@ -64,13 +64,20 @@ button:hover {
   #form {
     width: 90%;
     height: 60vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     margin: 8vh auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .error {
+    min-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  #form {
+    width: 50%;
+    height: 60vh;
+    margin: 8vh auto;
+    padding: 20px;
   }
   .error {
     min-height: 40px;

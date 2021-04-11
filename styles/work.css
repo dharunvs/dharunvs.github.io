@@ -191,3 +191,10 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 1030px) {
+  .items-container {
+    width: 70vw;
+    margin: 5vh auto;
+  }
+}
