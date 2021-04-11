@@ -145,3 +145,31 @@
 .wrapper .card .info .item-links .btn:hover {
   background-color: rgba(255, 255, 255, 0.616);
 }
+
+@media screen and (max-width: 600px) {
+  .items-container {
+    width: 100vw;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .wrapper {
+    display: flex;
+    width: 175px;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+  }
+
+  .wrapper .card {
+    width: 150px;
+    height: 175px;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+    transition: 500ms ease-in-out;
+  }
+}
