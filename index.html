@@ -237,7 +237,7 @@
         </div>
 
         <div class="contact page">
-          <h1 class="name page-title">Contact2</h1>
+          <h1 class="name page-title">Contact</h1>
           <form id="form">
             <div class="form-input-container">
               <input
@@ -281,6 +281,17 @@
       </div>
     </div>
 
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        var windowHeight = $(window).innerHeight();
+        $("body").css({ height: windowHeight });
+      });
+    </script>
     <script src="./scripts/app.js"></script>
     <script src="./scripts/work.js"></script>
     <script src="./scripts/contact.js"></script>
