@@ -60,9 +60,9 @@ button:hover {
   font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1030px) {
   #form {
-    width: 90%;
+    width: 50%;
     height: 60vh;
     margin: 8vh auto;
     padding: 20px;
@@ -72,9 +72,9 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 600px) {
   #form {
-    width: 50%;
+    width: 90%;
     height: 60vh;
     margin: 8vh auto;
     padding: 20px;

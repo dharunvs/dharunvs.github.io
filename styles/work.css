@@ -146,6 +146,13 @@
   background-color: rgba(255, 255, 255, 0.616);
 }
 
+@media screen and (max-width: 1030px) {
+  .items-container {
+    width: 70vw;
+    margin: 5vh auto;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .items-container {
     width: 90vw;
@@ -189,12 +196,5 @@
   }
   .wrapper .card .info .item-links {
     width: 90%;
-  }
-}
-
-@media screen and (max-width: 1030px) {
-  .items-container {
-    width: 70vw;
-    margin: 5vh auto;
   }
 }
