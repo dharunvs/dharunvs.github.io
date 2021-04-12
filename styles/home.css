@@ -105,6 +105,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .home {
+    display: block;
+    padding-top: 8vh;
+  }
   .page-title-home h1 {
     font-size: 3rem;
   }
